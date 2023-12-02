@@ -32,7 +32,8 @@ function draw() {
   //stroke(0,0,255); 
   noStroke();
   circle(x,y,d);
-  stroke(255);
+  noStroke();
+  //stroke(255);
   line(x,y,px,py);
   //rect(x,y,d);
   //text(int(random(1,10)),x,y);
